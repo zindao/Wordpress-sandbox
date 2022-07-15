@@ -1,22 +1,19 @@
-# project-template-v-7
+# Wordpress Sandbox
 
 Note:
 
 - Boostrap 5 styles and scripts are loaded externally
+- Dependencies needs to be installed
+- Gulp needs to be set up
 
-Steps:
 
-1) Clone this repo into a server folder e.g. Mamps htdocs
+Gulp Steps:
 
-2) Remove the remote: 'git remote rm <remote-name>'
+1) Run 'npm install'
 
-3) Verify removed remote: 'git remote -v'
+2) Update the proxy in gulpfile
 
-4) Run 'npm install'
-
-5) Update the proxy in gulpfile
-
-6) Run 'gulp dev': Success?
+3) Run 'gulp dev': Success?
 
 Possible issues:
 
