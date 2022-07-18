@@ -1,5 +1,5 @@
    <?php
-   get_header();
+		get_header();
    ?>
 
 
@@ -8,12 +8,13 @@
         <div class="row">
           <div class="col">
             <h1>Hello there</h1>
+
           </div>
         </div>
       </div>
     </div>
 
-    
+
     <?php
     get_footer();
     ?>
