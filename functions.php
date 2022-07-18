@@ -1,5 +1,8 @@
 <?php
 
+/* Adding dynamic title tag support */
+add_theme_support('title-tag');
+
 /* Load Styles */
 function load_styles() {
 

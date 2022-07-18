@@ -11,5 +11,8 @@
       <!-- Load our custom js scripts bundle -->
       <script src="dist/js/bundle.js"></script>
     </footer>
+
+    <?php wp_footer(); ?>
+
   </body>
 </html>
