@@ -1,7 +1,6 @@
 <?php
 
 /* Load Styles */
-
 function load_styles() {
 
     wp_register_style('styles-bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css', array(), '5.1.3', 'all' );
@@ -12,5 +11,7 @@ function load_styles() {
 }
 
 add_action('wp_enqueue_scripts', 'load_styles');
-
 /* Load Styles */
+
+
+/* commit before changes on new branch for script refactoring */
